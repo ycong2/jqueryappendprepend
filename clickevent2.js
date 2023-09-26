@@ -27,7 +27,7 @@ $(function(){
     //위치 절대 위로 못옮김  화면이 열리자마자
     $(".btns button").eq(count).click();
 
-    setInterval(function(){
+    var autorolling = setInterval(function(){
         //3초마다
         count++;
         count %=4;
